@@ -5,10 +5,10 @@ machine:
 
 dependencies:
   pre:
-    - sh script/pre.sh > pre.log
+    - node script/pre.js project1/test.txt ./test.txt
 
 deployment:
   master:
     branch: master
     commands:
-      - sh script/post.sh > post.log
+      - node script/post.js

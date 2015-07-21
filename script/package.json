@@ -1,0 +1,15 @@
+{
+  "name": "script",
+  "version": "0.0.1",
+  "description": "pre&post script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nakamura.shuta",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1.39",
+    "request": "^2.59.0"
+  }
+}
