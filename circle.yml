@@ -8,7 +8,7 @@ dependencies:
     - sh script/pre.sh > pre.log
 
 deployment:
-  production:
+  master:
     branch: master
     commands:
       - sh script/post.sh > post.log
