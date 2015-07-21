@@ -5,7 +5,7 @@ machine:
 
 dependencies:
   pre:
-    - cd ./script && npm install && node script/pre.js project1/test.txt ./test.txt
+    - cd ./script && npm install && node ./pre.js project1/test.txt ./test.txt
 
 deployment:
   master:
