@@ -1,0 +1,14 @@
+machine:
+  environment:
+    LANG: ja_JP.UTF-8
+    PROJECTNAME: MyCircleCIProject
+
+dependencies:
+  pre:
+    - sh script/pre.sh > pre.log
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - sh script/post.sh > post.log
