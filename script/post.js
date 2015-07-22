@@ -5,6 +5,7 @@ var filePath = process.argv[2];
 fs.unlink(filePath, function (err) {
   if (err) {
     console.error(err);
+  } else {
+    console.log('successfully deleted. path:' + filePath);
   }
-  console.log('successfully deleted. path:' + filePath);
 });

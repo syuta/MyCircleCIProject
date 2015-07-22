@@ -11,4 +11,4 @@ deployment:
   master:
     branch: master
     commands:
-      - cd ./script && node ./post.js ./test.txt
+      - cd ./script && node ./post.js ./project1/test.txt
